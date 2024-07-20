@@ -7,8 +7,9 @@ public class TestDemo {
             System.out.println("aaa"+i);
         }
 
-        String s_dim = "os,groupname,platform";
+        //String s_dim = "os,groupname,platform";
+        String s_dim = null;
         String[] s_arr = s_dim.split(",");
-        System.out.println(s_arr);
+        System.out.println(s_arr[0]);
     }
 }
